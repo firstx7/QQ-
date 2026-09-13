@@ -1,0 +1,20 @@
+name: astrbot_plugin_rpg
+display_name: RPG 游戏中心
+short_desc: QQ 群 RPG：RPG ID、签到、打工、金币、转账、背包与菜单。
+desc: |
+  一个面向 AstrBot 的群聊 RPG 基础插件。
+  支持 RPG ID、自动注册、每日签到、连续签到奖励、30 分钟打工、
+  金币余额、银行存款、取款、每日利息、按 RPG ID/QQ 用户转账、背包和分级菜单。
+version: 1.4.0
+author: local
+repo: https://github.com/local/astrbot_plugin_rpg
+astrbot_version: ">=4.17.0"
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - qq_official_webhook
+tags:
+  - RPG
+  - 游戏
+  - QQ
+  - 经济
